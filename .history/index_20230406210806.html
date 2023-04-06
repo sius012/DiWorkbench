@@ -12,15 +12,10 @@
         margin:0px;
       }
 
-      a{
-        text-decoration: none;
-      }
-
       body{
         background: rgb(2,0,36);
         background: linear-gradient(187deg, rgba(2,0,36,1) 0%, rgba(9,14,121,1) 43%, rgba(220,57,103,1) 100%, rgba(12,10,124,1) 100%);
         height: 100vh;
-        overflow-x: hidden;
       }
 
       .nav-cont li{
@@ -33,20 +28,11 @@
         text-decoration: none;
         color: white;
         font-weight: bold;
-
       }
 
-      nav ul{
+      .nav-cont{
         list-style-type: none;
         margin: 0px;
-        display: inline-block
-      }
-
-
-      nav{
-        background-color: rgba(0, 0, 0, 0.233);
-        margin: 10px;
-        border-radius: 40px;
       }
 
       .link-nav:hover{
@@ -57,78 +43,35 @@
         float: right;
         width: 600px;
         margin-top: 40px;
-        position: absolute;
-        right: 0;
-        animation: slide 0.3s ease-in-out;
       }
 
       .container-section{
         color: whitesmoke;
-        margin: 80px;
+        margin: 50px;
       }
 
       .h3-name{
-        font-size: 30pt;
-      }
-
-      .h6-name{
-        font-size: 20pt;
-        font-weight: normal;
-        margin-bottom: 10px;
-      }
-
-      .btn-explore{
-        padding: 15px;
-        border: none;
-        border-radius: 20px;
-        font-size: 12pt;
-        margin-top:10pt;
-        font-weight: bold;
+        font-size: 20%;
       }
       
-
-      .p-text{
-        margin-top: 20px;
-      }
-
-
-      @keyframes slide {
-        from {
-          right: -1000px;
-        }
-        to {
-          right: 0px;
-        }
-      }
-
-      .nav-brand{
-        color: white;
-        font-size: 20px;
-      }
     </style>
 </head>
 <body>
   <nav>
-    <ul>
-      <li><h3 class="nav-brand">DIWORKBENCH</h3></li>
-    </ul>
     <ul class="nav-cont">
       <li><a href="" class="link-nav">Home </a></li>
       <li><a href="" class="link-nav">WorkArt</a></li>
       <li><a href="" class="link-nav">About Me</a></li>
       <li><a href="" class="link-nav">Contact Me</a></li>
     </ul>
-  </nav>
     <div class="container">
       <img src="asset/image/rounded_frame.svg" alt="">
       <div class="container-section">
-        <h6 class="h6-name">Hai,namaku</h6>
+        <h6>Hai,namaku</h6>
         <h3 class="h3-name">Dionisius Setya Hermawan</h3>
-        <p class="p-text">I'am CG Artist and Programers</p>
-        <button class="btn-explore"><a href="">Explore</a></button>
       </div>
       
     </div>
-  
+  </nav>
 </body>
 </html>
